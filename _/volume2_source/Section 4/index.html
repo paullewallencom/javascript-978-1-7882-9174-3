@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="src/style/style.css">
+    </head>
+    <body>
+        <h1>Weather App</h1>
+        <div class="city-input  js-city-input">
+            Enter city:
+            <input type="text" class="js-city-field" />
+            <button class="js-search-city">Search</button>        
+        </div>        
+        <div class="city-weather js-city-weather">
+        </div>
+        <!-- Run 
+
+             npm install
+             npm run webpack 
+
+             to create the dist file.
+
+             Use 
+
+             python -m SimpleHTTPServer to view the result under the URL
+             
+             http://localhost:8000/index.html
+              -->
+        <script src="weatherapp.dist.js"></script>
+    </body>
+</html>

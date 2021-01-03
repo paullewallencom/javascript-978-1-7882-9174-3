@@ -1,0 +1,35 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city-weather table {
+    border: 1px #888 solid;
+    background-color: #ccc;
+    padding: 4px;
+    width: 100%;
+}
+
+.city-weather th {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.city-weather th, .city-weather td {
+    border: 1px #888 solid;
+    background-color: #ddd;
+}
+
+.city-weather div, .city-input {
+    padding: 6px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.up-button, .down-button {
+    border-radius: 8px;
+    margin: 10px auto 10px auto;
+    width: 100%;
+    background-color: #efefef;
+}

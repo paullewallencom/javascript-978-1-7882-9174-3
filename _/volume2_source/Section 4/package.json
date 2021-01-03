@@ -1,0 +1,31 @@
+{
+  "name": "financialtransactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack:watch": "webpack --watch",
+    "test": "mocha-webpack --webpack-config webpack.config-test.js \"src/**/*.test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "mocha-webpack": "^0.7.0",
+    "webpack": "^2.2.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "moment-timezone": "^0.5.13",
+    "underscore": "^1.8.3"
+  }
+}
